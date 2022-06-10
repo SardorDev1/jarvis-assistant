@@ -1,6 +1,14 @@
 let wrap = document.querySelector('.wrap')
 const refresh = document.querySelector('#refresh')
-
+const h1 = document.querySelector('#h1'),
+    h2 = document.querySelector('#h2'),
+    h3 = document.querySelector('#h3'),
+    h4 = document.querySelector('#h4'),
+    h5 = document.querySelector('#h5'),
+    h6 = document.querySelector('#h6'),
+    h7 = document.querySelector('#h7'),
+    h8 = document.querySelector('#h8'),
+    h9 = document.querySelector('#h9');
 const myAudio = document.querySelector('#musicdancin');
 const myAudio2 = document.querySelector('#musicicf');
 const myAudio3 = document.querySelector('#musicdf');
@@ -21,7 +29,7 @@ var alanBtnInstance = alanBtn({
 
             myAudio.play();
         }
-        else if (commandData.command === "stop") {
+                                  else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
@@ -29,7 +37,7 @@ var alanBtnInstance = alanBtn({
             myAudio.pause();
 
         }
-        if (commandData.command === "musicicf") {
+                       if (commandData.command === "musicicf") {
             setTimeout(() => {
                 wrap.style.display = "flex"
             }, 500);
@@ -38,60 +46,60 @@ var alanBtnInstance = alanBtn({
         }
 
 
-        else if (commandData.command === "stop") {
+                                else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
 
             myAudio2.pause();
         }
-        if (commandData.command === "musicdf") {
+               if (commandData.command === "musicdf") {
             setTimeout(() => {
                 wrap.style.display = "flex"
             }, 500);
             myAudio3.play();
         }
-        else if (commandData.command === "stop") {
+                                       else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
 
             myAudio3.pause();
         }
-        if (commandData.command === "musicli") {
+                              if (commandData.command === "musicli") {
             setTimeout(() => {
                 wrap.style.display = "flex"
             }, 500);
             myAudio4.play();
 
         }
-        else if (commandData.command === "stop") {
+                                            else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
 
             myAudio4.pause();
         }
-        if (commandData.command === "musicmlt") {
+                               if (commandData.command === "musicmlt") {
             setTimeout(() => {
                 wrap.style.display = "flex"
             }, 500);
             myAudio5.play();
         }
-        else if (commandData.command === "stop") {
+                                            else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
 
             myAudio5.pause();
         }
-        if (commandData.command === "musicfm") {
+                                 if (commandData.command === "musicfm") {
             setTimeout(() => {
                 wrap.style.display = "flex"
             }, 500);
             myAudio6.play();
         }
-        else if (commandData.command === "stop") {
+               else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
@@ -99,21 +107,52 @@ var alanBtnInstance = alanBtn({
             myAudio6.pause();
         }
 
-        if (commandData.command === "musicml") {
+                  if (commandData.command === "musicml") {
             setTimeout(() => {
                 wrap.style.display = "flex"
             }, 500);
             myAudio7.play();
         }
-        else if (commandData.command === "stop") {
+                                 else if (commandData.command === "stop") {
             setTimeout(() => {
                 wrap.style.display = "none"
             }, 500);
 
             myAudio7.pause();
         }
-        if(commandData.command === "refresh"){
-            refresh.click()
+                                      if (commandData.command === "refresh") {
+                                refresh.click()
+          }
+                       if (commandData.command === "h1") {
+                                     h1.click()
+        }
+
+                           if (commandData.command === "h2") {
+                          h2.click()
+        }
+                                                   if (commandData.command === "h3") {
+                       h3.click()
+        }
+
+                if (commandData.command === "h4") {
+                                      h4.click()
+        }
+
+                                 if (commandData.command === "h5") {
+                    h5.click()
+        }
+
+                                            if (commandData.command === "h6") {
+                              h6.click()
+           }
+               if (commandData.command === "h7") {
+                        h7.click()
+        }
+                   if (commandData.command === "h8") {
+                                  h8.click()
+        }
+                                         if (commandData.command === "h9") {
+                                  h9.click()
         }
 
 
