@@ -3,9 +3,7 @@ body {
     margin: 0;
     font: normal 75% Arial, Helvetica, sans-serif;
 }
-*{
-    transition: .5s;
-}
+
 
 canvas {
     display: block;
@@ -89,3 +87,27 @@ animation: border 30s infinite linear;
 }
 
 
+.preloader{
+    width: 100%;
+    height: 100vh;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    
+    align-items: center;
+    background-color: rgb(17, 16, 16);
+}
+.preloader .loader{
+    width: 100px;
+    position: fixed;
+    
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloader .loader img{
+    position: fixed;
+    display: flex;
+}
